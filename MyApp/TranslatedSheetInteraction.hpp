@@ -12,8 +12,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 namespace TranslatedSheetInteraction {
 extern const void *useTranslatedSheetInteractionKey;
-
-
 };
 
 NS_ASSUME_NONNULL_END

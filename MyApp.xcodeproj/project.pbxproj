@@ -16,6 +16,7 @@
 		4F01BEF42B497845009327F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F01BEF32B497845009327F4 /* main.m */; };
 		4F01BEFC2B497885009327F4 /* CollectionViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F01BEFB2B497885009327F4 /* CollectionViewController.mm */; };
 		4F01BF022B49A202009327F4 /* TranslatedSheetInteraction.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F01BF012B49A202009327F4 /* TranslatedSheetInteraction.mm */; };
+		4F76C8792B49B595001A4D97 /* TranslatedScrollToTop.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4F76C8782B49B595001A4D97 /* TranslatedScrollToTop.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		4F01BEFB2B497885009327F4 /* CollectionViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CollectionViewController.mm; sourceTree = "<group>"; };
 		4F01BF002B49A202009327F4 /* TranslatedSheetInteraction.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TranslatedSheetInteraction.hpp; sourceTree = "<group>"; };
 		4F01BF012B49A202009327F4 /* TranslatedSheetInteraction.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TranslatedSheetInteraction.mm; sourceTree = "<group>"; };
+		4F76C8772B49B595001A4D97 /* TranslatedScrollToTop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TranslatedScrollToTop.hpp; sourceTree = "<group>"; };
+		4F76C8782B49B595001A4D97 /* TranslatedScrollToTop.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TranslatedScrollToTop.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				4F01BEFB2B497885009327F4 /* CollectionViewController.mm */,
 				4F01BF002B49A202009327F4 /* TranslatedSheetInteraction.hpp */,
 				4F01BF012B49A202009327F4 /* TranslatedSheetInteraction.mm */,
+				4F76C8772B49B595001A4D97 /* TranslatedScrollToTop.hpp */,
+				4F76C8782B49B595001A4D97 /* TranslatedScrollToTop.mm */,
 				4F01BEEA2B497845009327F4 /* Main.storyboard */,
 				4F01BEED2B497845009327F4 /* Assets.xcassets */,
 				4F01BEEF2B497845009327F4 /* LaunchScreen.storyboard */,
@@ -162,6 +167,7 @@
 				4F01BEF42B497845009327F4 /* main.m in Sources */,
 				4F01BEFC2B497885009327F4 /* CollectionViewController.mm in Sources */,
 				4F01BEE62B497845009327F4 /* SceneDelegate.m in Sources */,
+				4F76C8792B49B595001A4D97 /* TranslatedScrollToTop.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

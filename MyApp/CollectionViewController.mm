@@ -7,6 +7,7 @@
 
 #import "CollectionViewController.h"
 #import "TranslatedSheetInteraction.hpp"
+#import "TranslatedScrollToTop.hpp"
 
 @interface CollectionViewController ()
 @property (retain, nonatomic) UICollectionViewCellRegistration *cellRegistration;
@@ -47,6 +48,7 @@
     
     collectionView.transform = CGAffineTransformMakeScale(1.f, -1.f);
     objc_setAssociatedObject(collectionView, TranslatedSheetInteraction::useTranslatedSheetInteractionKey, @YES, OBJC_ASSOCIATION_COPY_NONATOMIC);
+    objc_setAssociatedObject(collectionView, TranslatedScrollToTop::useTranslatedScrollToTopKey, @YES, OBJC_ASSOCIATION_COPY_NONATOMIC);
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
